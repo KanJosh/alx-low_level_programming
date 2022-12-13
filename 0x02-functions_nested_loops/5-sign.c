@@ -5,7 +5,7 @@
  * @n: the number of the sign to be printed
  * Return: 1 if number is greater than zero
  * 0 of number is zero
- * -1 oif number is less than zero
+ * -1 if number is less than zero
  */
 int print_sign(int n)
 {
@@ -21,7 +21,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar('-')
+		_putchar('-');
 		return (-1);
 	}
 }
