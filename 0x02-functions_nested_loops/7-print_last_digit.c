@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
-* main - check the cod
-*
-* Return: Always 0.
+* print_last_digit - Prints the last digit of a number
+* @n: The number to be created
+* Return: Value of the last digit of a number
 */
-int main(void)
-{
-	int r;
+int print_last_digit(int n)
 
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	_putchar('\n');
-	return (0);
+{
+	int last;
+
+	last = n % 10;
+	if (last < 0)
+	{
+		last = last * -1;
+	}
+	_putchar(last + '0');
+	return (last);
 }
