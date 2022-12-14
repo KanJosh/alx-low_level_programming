@@ -27,7 +27,7 @@ int numLength(int num)
  */
 int main(void)
 {
-	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f10 = 0, f2o = 0, tmpo = 0;
+	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
 
 	while (i <= 98)
@@ -38,7 +38,7 @@ int main(void)
 		while (f10 > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
-			initials0s--;
+			initial0s--;
 		}
 		printf("%lu", f1);
 
@@ -55,5 +55,5 @@ int main(void)
 			printf("\n");
 		i++;
 	}
-	return (0)
+	return (0);
 }
