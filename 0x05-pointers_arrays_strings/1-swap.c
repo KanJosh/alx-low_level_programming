@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,10 +7,11 @@
  * @b: int b
  */
 void swap_int(int *a, int *b);
-{
-	int q;
 
-	q = *a;
+{
+	int c = *a;
+
 	*a = *b;
-	*b = q;
+
+	*b = c;
 }
